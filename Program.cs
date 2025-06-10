@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices;
-
-Console.Write("Operaciones aceptadas:");
+﻿Console.Write("Operaciones aceptadas:");
 Console.Write("\x1b[1m + - * /\x1b[0m\n");
 Console.Write(" └┬ Ingrese la operacion que desea hacer: ");
 string inputOp = Console.ReadLine();
