@@ -1,7 +1,4 @@
-﻿using System.Runtime.InteropServices.Marshalling;
-using System.Security.Cryptography.X509Certificates;
-
-Console.Write("Ingrese un numero: ");
+﻿Console.Write("Ingrese un numero: ");
 string input = Console.ReadLine();
 float number;
 while (!float.TryParse(input, out number))
